@@ -8,6 +8,7 @@ import yuzu from './Yuzu Matcha Tonic.jpg'
 import sparkling from './Sparkling.jpg'
 import strawberry from './Strawberry.jpg'
 import aomori from './aomori.png' 
+import header_img from './header_img.jpg'
 
 export const assets = {
     logo,
@@ -20,6 +21,7 @@ export const assets = {
     strawberry,
     sparkling,
     aomori,
+    header_img,
 }
 
 export const listMenu = [
@@ -264,5 +266,16 @@ export const listMenu = [
         tasting_notes_th: ['นุ่มละมุน', 'ขนมสายไหม', 'อูมามิ', 'กลิ่นลมทะเล']
     },
 ]
+
+import cafe_img_l from './cafe_img_l.jpg'
+import cafe_img_c from './cafe_img_c.jpg'
+import cafe_img_r from './cafe_img_r.jpg'
+
+export const card = {
+    cafe_img_l,
+    cafe_img_c,
+    cafe_img_r,
+
+}
 
 

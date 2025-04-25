@@ -20,7 +20,7 @@ const Navbar = () => {
                     </NavLink>
                     {/* <li className='hover:text-primary py-2'>MENU</li> */}
                     <NavLink to='/product' onClick={() => scrollTo(0, 0)}>
-                        <li className='hover:text-primary py-2'><strong>PRODUCT</strong></li>
+                        <li className='hover:text-primary py-2'><strong>All MENU</strong></li>
                         <hr className='border-none outline-none h-1 rounded bg-primary w-4/5 m-auto hidden' />
                     </NavLink>
                     {/* <li className='hover:text-primary py-2'>MATCHY CHATBOT</li> */}

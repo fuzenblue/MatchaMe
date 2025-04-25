@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { listMenu } from '../assets/asset.js'
+import RelatedMenu from '../components/RelateMenu.jsx'
 
 const ProductDetail = () => {
 
@@ -16,13 +17,13 @@ const ProductDetail = () => {
   return (
     <div className="flexed p-6">
       <button onClick={() => navigate(-1)} className="flex items-start mb-4 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
-        <span class="material-symbols-rounded">arrow_back</span>
+        <span className="material-symbols-rounded">arrow_back</span>
         <p className='mx-4'>ย้อนกลับ</p>
       </button>
 
       <div className="w-full">
         <div className="flex flex-col lg:flex-row gap-6">
-          <img src={menu.Img} alt={menu.name} className="w-full lg:w-1/2 h-64 object-cover rounded-lg"/>
+          <img src={menu.Img} alt={menu.name} className="w-full lg:w-1/2 h-64 object-cover rounded-lg" />
 
           <div className="flex-1">
             <h2 className="text-2xl font-bold mb-2">{menu.name}</h2>
@@ -40,7 +41,9 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      
+      <div>
+        <RelatedMenu type={menu.type} menuId={menu._id} />
+      </div>
     </div>
   )
 }
