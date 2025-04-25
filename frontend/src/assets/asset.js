@@ -9,8 +9,10 @@ import sparkling from './Sparkling.jpg'
 import strawberry from './Strawberry.jpg'
 import aomori from './aomori.png' 
 import header_img from './header_img.jpg'
+import service_img from './service_img.jpg'
 
 export const assets = {
+    service_img,
     logo,
     matchy,
     latte,

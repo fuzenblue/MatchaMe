@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { listMenu } from '../assets/asset.js'
+import { listMenu, assets } from '../assets/asset.js'
 import { Link } from 'react-router-dom'
 
 const shuffleArray = (array) => {
@@ -26,6 +26,28 @@ const Product = () => {
 
   return (
     <div>
+      <div className="flex flex-col md:flex-row items-center justify-between px-[5%] py-8 gap-8">
+        {/* Left Section */}
+        <div className="flex flex-col w-full md:w-2/3 text-start gap-6">
+          <h1 className="text-4xl lg:text-7xl font-bold text-accent leading-tight">Our Menu</h1>
+          <p className="text-base md:text-lg text-dark-brown max-w-xl">
+            This section showcases our exquisite matcha selections and related offerings,
+            inviting you to explore the diverse ways to enjoy this vibrant green treasure.
+            Each card will guide you to more details about a specific grade or product.
+          </p>
+        </div>
+
+        {/* Right Image */}
+        <div className="w-full md:w-1/3 flex justify-center md:justify-end">
+          <img
+            className="max-w-[16rem] md:max-w-xs lg:max-w-sm object-contain"
+            src={assets.service_img}
+            alt="Matcha Menu"
+          />
+        </div>
+      </div>
+
+
       <div className='flex flex-wrap justify-center gap-2 mt-6'>
         {['All', 'LATTE', 'PURE', 'SPARKLING', 'ONLY MATCHAME'].map((type) => (
           <label key={type}>

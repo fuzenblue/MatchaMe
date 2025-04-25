@@ -55,9 +55,9 @@ const Navbar = () => {
                             <img className='w-32 lg:w-44 my-8' src={assets.logo} alt="" />
                             <li className='my-3'><a>HOME</a></li>
                             <li className='my-3'><a>MENU</a></li>
-                            <li className='my-3'><a>PRODUCT</a></li>
-                            <li className='my-3'><a>MATCHY CHATBOT</a></li>
-                            <li className='my-3'><a>CONTACT US</a></li>
+                            {/* <li className='my-3'><a>PRODUCT</a></li> */}
+                            {/* <li className='my-3'><a>MATCHY CHATBOT</a></li> */}
+                            {/* <li className='my-3'><a>CONTACT US</a></li> */}
                         </ul>
                     </div>
                 </div>
