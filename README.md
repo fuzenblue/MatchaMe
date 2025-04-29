@@ -5,7 +5,11 @@
 ---
 
 ## website deploy
-   - https://matchame.onrender.com
+      (https://matchame.onrender.com)
+
+## 📑 Presentation Slides
+
+[🔗 MatchaMe Project Slides (Cnava)](https://www.canva.com/design/DAGlk_lK5gM/sWZaRa7JaJKYKI2MJSbK8g/edit?utm_content=DAGlk_lK5gM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -31,7 +35,9 @@
 
 ## Environment Setup
    สร้าง .env แล้วเพิ่ม
+   
   ```VITE_API_URL=http://localhost:5000/api/gemini```
+  
   - ต้องตั้งค่า backend proxy สำหรับ Gemini ด้วย (Node/Express หรือ Cloud Function)
 
 ---
@@ -42,6 +48,6 @@
 git clone https://github.com/your-username/matchame.git
 cd matchame/frontend
 npm install
-npm run dev```
+npm run dev
 
 
