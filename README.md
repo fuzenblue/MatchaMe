@@ -4,12 +4,12 @@
 
 ---
 
-## website deploy
-      (https://matchame.onrender.com)
+## Website deploy
+      [MatchMe.com](https://matchame.onrender.com)
 
-## 📑 Presentation Slides
+## Presentation Slides
 
-[🔗 MatchaMe Project Slides (Cnava)](https://www.canva.com/design/DAGlk_lK5gM/sWZaRa7JaJKYKI2MJSbK8g/edit?utm_content=DAGlk_lK5gM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[MatchaMe Project Slides (Cnava)](https://www.canva.com/design/DAGlk_lK5gM/sWZaRa7JaJKYKI2MJSbK8g/edit?utm_content=DAGlk_lK5gM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
