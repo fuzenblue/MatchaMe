@@ -36,7 +36,7 @@
 ## Environment Setup
    สร้าง .env แล้วเพิ่ม
    
-  ```VITE_API_URL=http://localhost:5000/api/gemini```
+```VITE_API_URL=http://localhost:5000/api/gemini```
   
   - ต้องตั้งค่า backend proxy สำหรับ Gemini ด้วย (Node/Express หรือ Cloud Function)
 
