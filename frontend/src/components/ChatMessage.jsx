@@ -2,15 +2,6 @@ import React from 'react';
 import ChatIcon from './ChatIcon';
 
 const ChatMessage = ({ chat }) => {
-
-    const parseLinks = (text) => {
-        return text.split(/(\/product\/\w+)/g).map((chunk, i) => {
-          if (chunk.startsWith('/product/')) {
-            return <Link key={i} to={chunk} className="text-blue-600 underline">{chunk}</Link>
-          }
-          return <span key={i}>{chunk}</span>
-        })
-      }
       
     return (
         !chat.hideInChat && (
@@ -23,7 +14,7 @@ const ChatMessage = ({ chat }) => {
                         </div>
                         <div className={`chat-bubble ${chat.isError ? 'bg-error text-white' : 'bg-base text-black'} bg-base rounded-xl px-4 py-2 max-w-xs`}>
                             <p className="text-sm leading-snug whitespace-pre-line">
-                                {parseLinks(chat.text)}
+                                {chat.text}
                             </p>
                         </div>
                     </div>
