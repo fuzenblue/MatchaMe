@@ -87,11 +87,6 @@ MatchaMe/
 
 This project is licensed under the MIT License.
 
-## 📞 Contact
-
-- Project Link: [https://github.com/your-username/matchame](https://github.com/your-username/matchame)
-- Live Demo: [https://matchame.onrender.com](https://matchame.onrender.com)
-
 ---
 
 **Made with ❤️ for Matcha lovers**
